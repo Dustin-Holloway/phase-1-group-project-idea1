@@ -1,0 +1,164 @@
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+    text-align: center;
+    background:rgb(139, 156, 162)
+}
+input {
+    font-size: large;
+    border-color: none;
+    width: 50%;
+
+
+}
+
+input#text.cycling {
+    height: 35px;
+    width: 10%;
+
+    }
+
+input#search {
+        width: 100px;
+    }
+
+
+div.container {
+
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+form {
+border-style: none;
+    height: 40px;
+    width: 700px;
+    display: block;
+    margin: auto;
+    border-color: none;
+    margin-bottom: 50px;
+
+
+
+}
+
+div.image_container{
+    padding-bottom: 10px;
+    background-color: none;
+    border-color: none;
+    border-radius: 5px;
+    display: block;
+    flex-wrap: none;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 500px;
+    overflow: hidden;
+
+}
+
+img {
+    border-radius: 10px;
+    max-width: 100%
+}
+
+
+div.text-box {
+    font-size: 4rem;
+    font-weight: bolder;
+    display: flex;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
+/* ul  {
+
+    margin-left:auto;
+    margin-right: auto;
+    list-style: none;
+    width: 50px;
+    height: 40px;
+} */
+
+
+
+#text {
+    background-color: white;
+}
+li {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    color: rgb(139, 156, 162);
+    font-family: arial;
+    width: 90px;
+    background: rgb(118, 48, 48);
+    border-radius: 5px;
+    height: 30px;
+    box-shadow: 2px 2px 10px rgba(56, 55, 55, 0.584);
+
+}
+
+.cycling {
+    /* display: inline; */
+    /* position: center; */
+    margin: auto;
+    color: rgb(139, 156, 162);
+    font-family: arial;
+    text-align: center;
+    width: 90px;
+    border-style: none;
+    background: rgb(118, 48, 48);
+    border-radius: 5px;
+    height: 40px;
+    box-shadow: 2px 2px 10px rgba(56, 55, 55, 0.584);
+
+
+
+    /* box-shadow: 1px 1px 10px rgba(56, 55, 55, 0.584);     */
+
+    margin-inline: 15px;
+    
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6rem;
+    color: white;
+    margin-bottom: 10px;
+    
+
+    ;
+}
+
+h2 {
+    font-weight: 100px;
+}
+
+p {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 1.5rem;
+    color: white;
+    
+    
+}
